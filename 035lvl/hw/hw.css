@@ -1,0 +1,203 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+
+/* დავალება 1 - Five Sections */
+
+.section {
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.section1 {
+    position: static;
+    background-color: lightblue;
+}
+
+.section2 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    background-color: lightgreen;
+}
+
+.section3 {
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+    background-color: lightcoral;
+}
+
+.section4 {
+    background-color: lightyellow;
+}
+
+.section5 {
+    background-color: plum;
+}
+
+
+/* დავალება 2 - Profile Card */
+
+.profile-card {
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    margin: 40px auto 70px;
+    text-align: center;
+
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px gray;
+}
+
+.profile-image {
+    position: relative;
+    width: 150px;
+    margin: auto;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.online {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.profile-card h2 {
+    color: #222;
+}
+
+.profile-card h3 {
+    color: blue;
+}
+
+.profile-card p {
+    color: gray;
+    line-height: 1.5;
+}
+
+.pro-member {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    background-color: gold;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* დავალება 3 - Sticky Navigation */
+
+.website-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background-color: darkblue;
+    padding: 20px;
+    box-shadow: 0 4px 10px gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+
+/* Website Sections */
+
+.web-section {
+    background-color: white;
+    padding: 30px;
+    margin: 25px 0;
+    min-height: 180px;
+
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightgray;
+}
+
+.web-section h2 {
+    color: darkblue;
+}
+
+.web-section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Fixed Help Button */
+
+.help-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.help-button:hover {
+    background-color: darkgreen;
+}

@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* დავალება 1 */
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container1 {
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 120px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* დავალება 2 */
+
+.container2 {
+    justify-content: space-between;
+}
+
+.small-card {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* დავალება 3 */
+
+.container3 {
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.height-card {
+    width: 120px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    height: 60px;
+}
+
+.card2 {
+    height: 120px;
+}
+
+.card3 {
+    height: 180px;
+}
+
+/* დავალება 4 */
+
+.container4 {
+    justify-content: space-around;
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+/* დავალება 5 */
+
+.container5 {
+    height: 400px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom-card {
+    width: 120px;
+    height: 150px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

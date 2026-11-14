@@ -1,0 +1,270 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: #333;
+    margin-top: 40px;
+}
+
+
+/* დავალება 1 - Static */
+
+.static-card {
+    position: static;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.card1 {
+    background-color: lightblue;
+    width: 200px;
+    height: 80px;
+}
+
+.card2 {
+    background-color: lightgreen;
+    width: 250px;
+    height: 100px;
+}
+
+.card3 {
+    background-color: lightcoral;
+    width: 300px;
+    height: 120px;
+}
+
+
+/* დავალება 2 - Relative */
+
+.profile-relative {
+    position: relative;
+    top: 30px;
+    left: 40px;
+
+    background-color: orange;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* დავალება 3 - Absolute */
+
+.big-container {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: lightgray;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.small-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+
+/* დავალება 4 - Fixed Contact */
+
+.contact-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* დავალება 5 - Sneakers */
+
+.sneakers-card {
+    position: relative;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.sale-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+/* დავალება 6 - Overlapping Cards */
+
+.overlap-container {
+    position: relative;
+    height: 200px;
+}
+
+.red-card {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    width: 180px;
+    height: 120px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+.blue-card {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+
+    width: 180px;
+    height: 120px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+
+/* დავალება 7 - Fixed Help */
+
+.help-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    background-color: blue;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* დავალება 8 - Absolute Labels */
+
+.labels-container {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    border: 3px solid black;
+}
+
+.labels-container span {
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.label-one {
+    top: 0;
+    left: 0;
+}
+
+.label-two {
+    top: 0;
+    right: 0;
+}
+
+.label-three {
+    bottom: 0;
+    right: 0;
+}
+
+
+/* დავალება 9 - Author Profile */
+
+.author-card {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.author-image {
+    position: relative;
+    width: 150px;
+    margin: auto;
+}
+
+.author-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.online-dot {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+/* დავალება 10 - Online Shop */
+
+.shop-card {
+    position: relative;
+    width: 300px;
+    padding: 25px;
+    margin-bottom: 100px;
+
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.cart-button {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

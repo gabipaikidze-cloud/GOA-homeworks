@@ -1,0 +1,172 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+
+/* დავალება 1 */
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-color: red;
+}
+
+.card2 {
+    background-color: blue;
+}
+
+.card3 {
+    background-color: green;
+}
+
+.card4 {
+    background-color: orange;
+}
+
+
+/* დავალება 2 */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 350px;
+    background-color: white;
+}
+
+.square {
+    background-color: purple;
+}
+
+.square1 {
+    width: 50px;
+    height: 50px;
+}
+
+.square2 {
+    width: 80px;
+    height: 80px;
+}
+
+.square3 {
+    width: 110px;
+    height: 110px;
+}
+
+
+/* დავალება 3 */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-buttons button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* დავალება 4 */
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.card5 {
+    width: 120px;
+    height: 120px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/* დავალება 5 */
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: red;
+}
+
+.circle2 {
+    background-color: blue;
+}
+
+.circle3 {
+    background-color: green;
+}
+
+.circle4 {
+    background-color: orange;
+}

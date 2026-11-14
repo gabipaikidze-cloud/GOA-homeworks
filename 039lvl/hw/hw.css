@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+/* დავალება 1 */
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.container1 .card {
+    width: 100px;
+    height: 80px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container1 .card:nth-child(1) {
+    align-self: flex-start;
+}
+
+.container1 .card:nth-child(3) {
+    align-self: center;
+}
+
+.container1 .card:nth-child(5) {
+    align-self: flex-end;
+}
+
+/* დავალება 2 */
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: lightgreen;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.container2 .card {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* დავალება 3 */
+
+.container3 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    background-color: lightyellow;
+    padding: 15px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.container3 .card {
+    min-width: 100px;
+    height: 100px;
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* დავალება 4 */
+
+.container4 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    background-color: lightpink;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.container4 .card {
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* დავალება 5 */
+
+.container5 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.container5 .block {
+    width: 150px;
+    height: 60px;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+

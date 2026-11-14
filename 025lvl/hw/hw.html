@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 25</title>
+</head>
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Profile Preferences</legend>
+
+            <label>Choose Color:</label>
+            <input type="color" value="#3498db">
+
+            <br><br>
+
+            <label>Notification Sound:</label>
+            <input type="range" min="0" max="100" step="5">
+
+            <br><br>
+
+            <label>City:</label>
+            <input type="text" list="cities" placeholder="Type or select city...">
+
+            <datalist id="cities">
+                <option value="Tbilisi">
+                <option value="Kutaisi">
+                <option value="Batumi">
+            </datalist>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Details</legend>
+
+            <label>User Role:</label>
+            <input type="text" value="Student" readonly>
+
+            <br><br>
+
+            <label>Promo Code:</label>
+            <input type="text" value="NOT_ACTIVE" disabled>
+
+            <br><br>
+
+            <label>Username:</label>
+            <input type="text" required minlength="3" maxlength="15">
+
+            <br><br>
+
+            <label>Security PIN:</label>
+            <input type="text" pattern="[0-9]{4}" title="Enter 4-digit PIN" required>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Save Settings</button>
+
+    </form>
+
+</body>
+</html>

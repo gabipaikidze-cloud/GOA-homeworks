@@ -1,0 +1,31 @@
+.profile-card {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 12px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card p {
+    font-size: 18px;
+    color: darkgreen;
+    font-family: Georgia, serif;
+}
+
+.profile-card button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

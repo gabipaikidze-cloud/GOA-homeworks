@@ -1,0 +1,201 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: #333;
+    margin-top: 40px;
+}
+
+
+/* დავალება 1 - Cards */
+
+.card {
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.static-card {
+    position: static;
+}
+
+.card1 {
+    background-color: lightblue;
+    width: 250px;
+    height: 100px;
+}
+
+.card2 {
+    background-color: lightgreen;
+    width: 280px;
+    height: 110px;
+}
+
+.relative-card {
+    position: relative;
+}
+
+.card3 {
+    background-color: lightcoral;
+    width: 300px;
+    height: 120px;
+
+    top: 30px;
+    left: 50px;
+}
+
+.card4 {
+    background-color: lightyellow;
+    width: 320px;
+    height: 130px;
+
+    bottom: 20px;
+    right: 30px;
+}
+
+
+/* დავალება 2 - Product Card */
+
+.product-card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.new {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.price {
+    color: green;
+}
+
+.buy-button {
+    background-color: blue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: darkblue;
+}
+
+
+/* დავალება 3 - Navigation */
+
+nav {
+    background-color: darkblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px lightgray;
+    min-height: 180px;
+}
+
+section h2 {
+    color: darkblue;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Fixed TOP Button */
+
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px gray;
+
+    font-weight: bold;
+}
+
+.top-button:hover {
+    background-color: darkblue;
+}

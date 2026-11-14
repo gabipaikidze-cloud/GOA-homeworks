@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/* დავალება 1 */
+
+.container1 {
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* დავალება 2 */
+
+.container2 {
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+/* დავალება 3 */
+
+.container3 {
+    height: 250px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.height-card {
+    width: 120px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-card:nth-child(1) {
+    height: 70px;
+}
+
+.height-card:nth-child(2) {
+    height: 120px;
+}
+
+.height-card:nth-child(3) {
+    height: 180px;
+}
+
+/* დავალება 4 */
+
+.container4 {
+    justify-content: space-evenly;
+}
+
+.small-card {
+    width: 70px;
+    height: 70px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* დავალება 5 */
+
+.container5 {
+    height: 350px;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.stretch-card {
+    flex: 1;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
